@@ -784,7 +784,7 @@ def _find_mfg(name):
 # =============================================================================
 @app.get("/")
 def index():
-return redirect("https://privacypolicyanalyzertamuct.pythonanywhere.com/", code=302)
+    return redirect("https://privacypolicyanalyzertamuct.pythonanywhere.com/", code=302)
 
 @app.get("/list")
 def list_mfg():
